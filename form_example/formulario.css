@@ -1,112 +1,126 @@
-body{
-    background-color: #ffb200;
+body {
+    background-color: #FFD000;
     color: black;
     margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-header{
+header {
     width: 100%;
-    height: 20%;
     display: flex;
-    justify-content: space-between;
-    background-color: black;
-    flex-wrap: wrap;
-    color:#ffb200;
-    margin: 0 auto  ;
+    background-color: #212529;
+    color:#FFD000;
+    padding-left: 50px;
+   
 }
-h1{
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-h2{
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-.h1:hover{
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.img{
-    width: 60%;
-    height: 60%;
-    padding: 10px;
-}
-ul{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    font-size: medium;
-}
-form {
+footer {
+    bottom: 0;
+    position: fixed;
     width: 100%;
-    margin: 70px;
-    border: 1px solid;
-    border-radius: 1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: black;
-    font-weight: bold;
+    text-align: left;
+    background: #212529;
+    color:#FFD000;
+    font-size: small;
 }
-.tituloform{
+
+h1 {
+    text-align: center;
+}
+h1:hover {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+h2 {
+    text-align: center;
+    margin: 5px;
+}
+p{
+    text-align: justify;
+}
+
+/* .img-the-office {
+    width: 300px;
+    margin: 0px auto;
+    border-radius: 10px;
+} */
+
+form {
+    width: 130%;
+    display:block;
+    border-radius: 1em;
+    background-color: #212529;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.tituloform {
     text-align:center;
-    color: #ffb200;
+    color: #FFD000;
+    margin-bottom: 20px;
 }   
 form div + div {
     margin-top: 1em;
 }
 .field{
-    width: 95%;
+    width: 80%;
     background-color: rgba(128, 128, 128, 0.144);
-    border-radius: 5px;
-    justify-content: center;
-    position:fixed center;
     padding: 5px;
-    margin-left: 5px;
-    border-color: #ffb200;
+    margin-left: 24px;
+    border-color: #FFD000;
+    margin-top: 10px;
+    border-radius: 5px;
 }
-textarea::placeholder{
+textarea::placeholder {
     color: white;
     text-align: center;  
 }    
 .button {
     padding: 10px;
     background-color: black;
-    color:#ffb200;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#FFD000;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     border-radius: 5px;
-    height: 40px;
-    margin: 3px;
-    border-color: #ffb200;
+    height: 50px;
+    margin: 5px;
+    margin-bottom: 5px;
+    border-color: #FFD000;
 }
-#div_submit{
+#div_submit {
     text-align: center;
+}
+
+.float-container {
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border: 0px;
+    margin: 10px;
 }
 .float-child {
-    width: 44%;
-    float:left;
+    
     display:flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;  
-} 
-.black-div {
-    width: 44%;
-    float:left;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} 
-.float-container{
-    width: 90%;
-    border: black;
-    padding: 0%;
+    justify-content:center;
+    margin-left: 160px;
+
 }
-footer{
-    bottom: 0;
-    position: fixed;
-    width: 100%;
+.black-div {
+    padding: 0px;
     text-align: center;
-    background: black;
-    color:#ffb200
+    margin: 50px;
+} 
+
+.div-languages {
+    margin: 30px 0 30px 100px;
+}
+.div-languages .float-child {
+    display: block;
+    margin: auto;
+}
+.div-languages img {
+    width: 50px;
+    border: 10px;
+}
+.video{
+    margin-left: 100px;
 }

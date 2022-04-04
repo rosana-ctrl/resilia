@@ -4,51 +4,75 @@
 		<meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Formulário</title>
+		<title>Formulario</title>
 		<link rel="stylesheet" href="formulario.css">
 
     </head>
 
 	<body>
          
+        <section></section>
         <header>
-            <h1 class="h1">RESILIA</h1>
-            
+            <div> 
+                <h1>RESILIA</h1>
+            </div>
         </header>
-       
-            <h2>
-            Curso WEB DEV, venha se tornar um dev junior em apenas 6 meses!
-            </h2>
-
         <div class="float-container">
             <div class="float-child black-div">
-                <img class="img" src="https://poltronanerd.com.br/wp-content/uploads/2021/07/the-office.jpg">
-                <p>
-                    Se inscreva e aprenda as seguintes tecnologias:
-                </p> 
+                <h2>
+                    Inscreva-se agora no curso WEB DEV, e <br>se torne um dev junior em apenas 6 meses!
+                </h2><br>
+                <!-- <img class="img-the-office" src="https://poltronanerd.com.br/wp-content/uploads/2021/07/the-office.jpg">     -->
+                
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/KJV8uhxaRl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+                <div class="float-container div-languages" >
+                    <div class="float-child">
+                        <img src="images/html5.svg">
+                        <p>HTML</p>
+                    </div> 
+                    <div class="float-child" style="text-align:center">
+                        <img src="images/css3.svg">
+                        <p>CSS</p>
+                    </div> 
+                    <div class="float-child">
+                        <img src="images/js.svg">
+                        <p>JavaScript</p>
+                    </div> 
+                    <div class="float-child">
+                        <img src="images/mysql.svg">
+                        <p>MySQL</p>
+                    </div> 
+                    <div class="float-child">
+                        <img src="images/nodejs.svg">
+                        <p>Node</p>
+                    </div> 
+                    <div class="float-child">
+                        <img src="images/react.svg  ">
+                        <p>React</p>
+                    </div> 
+
+
+                </div>     
+                
                
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
-                    <li>MySQL</li>
-                    <li>Node</li>
-                    <li>React</li>
-                </ul>
+                
             </div> 
+            
             <div class="float-child">       
-                <form action="formulario.html" method="post">  
+                <form>  
                     <p class="tituloform">
-                        Preencha seus dados e se inscreva!!
+                        Não perca essa oportunidade!
                     </p>
+                   
                     
                     <div>
                         <!-- <label for="nome">Nome:</label> -->
-                        <input class="field" type="text" id="nome" placeholder="Nome Completo"/>
+                        <input class="field" type="text" id="nome" placeholder="Seu nome completo"/>
                     </div>
                     <div>
                         <!-- <label for="email">Email:</label> -->
-                        <input class="field" type="email" id="email" placeholder="Email" />
+                        <input class="field" type="email" id="email" placeholder="Seu melhor email" />
                     </div>
                     <div>
                         <!-- <label for="datadenasciento">Data de Nascimento:</label> -->
@@ -58,15 +82,20 @@
                         <!-- <label for="cpf">CPF:</label> -->
                         <input class="field" type="text" id="cpf" placeholder="CPF"/>
                     </div>
+                    <div>
+                        <!-- <label for="cpf">CPF:</label> -->
+                        <input class="field" type="text" id="celular" placeholder="Seu celular com DDD"/>
+                    </div>
                     <div id="div_submit">
                         <button class="button" type="submit">Quero me inscrever!</button>
                     </div>
                 </form>
+                
             </div>
         </div>
         <footer>
             <p>
-                RESILIA
+                *Imagem utilizada para fins de aprendizagem.
             </p>
         </footer>
        	</body>
